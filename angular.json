@@ -126,5 +126,8 @@
       }
     }
   },
-  "defaultProject": "mean-stack-guide"
+  "defaultProject": "mean-stack-guide",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
