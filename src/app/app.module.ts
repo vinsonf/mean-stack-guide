@@ -7,7 +7,7 @@ import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
-import * as fromTopic from './store/topic/reducers/topic.reducer';
+import * as fromTopic from './store/reducers/topic/topic.reducer';
 
 @NgModule({
   declarations: [

@@ -6,7 +6,7 @@ import {
   MetaReducer
 } from '@ngrx/store';
 import { environment } from '../../environments/environment';
-import * as fromTopic from './topic/reducers/topic.reducer';
+import * as fromTopic from './reducers/topic/topic.reducer';
 
 
 export interface AppState {
